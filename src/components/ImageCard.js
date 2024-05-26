@@ -5,17 +5,18 @@ const ImageCard = ({ name, message, image, left = true }) => {
     <div className="row align-items-start big-container">
       {left ? (
         <>
-            <div className="col-md-4">
-              <img
-                className="img-fluid rounded-circle"
-                src={image}
-                alt="Image"
-              />
-            </div>
-            <div className="col-md-8 d-flex align-items-center content-container">
+          <div className="col-md-4">
+            <img
+              className="img-fluid rounded-circle"
+              id={name}
+              src={image}
+              alt="Image"
+            />
+          </div>
+          <div className="col-md-8 d-flex align-items-center content-container">
             <div className="text-container">
-              <p>{message}</p>
-              <span className="author">{name}</span>
+              <p className="message">{message}</p>
+              <span className="author">~{name}</span>
             </div>
           </div>
         </>
@@ -23,12 +24,17 @@ const ImageCard = ({ name, message, image, left = true }) => {
         <>
           <div className="col-md-8 d-flex align-items-center content-container">
             <div className="text-container">
-              <p>{message}</p>
-              <span className="author">{name}</span>
+              <p className="message">{message}</p>
+              <span className="author">~{name}</span>
             </div>
           </div>
           <div className="col-md-4">
-            <img className="img-fluid rounded-circle" src={image} alt="Image" />
+            <img
+              className="img-fluid rounded-circle"
+              id={name}
+              src={image}
+              alt="Image"
+            />
           </div>
         </>
       )}

@@ -58,6 +58,11 @@ body {
   /* You can keep styles for text and name within this class */
 }
 
+.message{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .author {
   /* You can keep styles for the name within this class */
 }
+
