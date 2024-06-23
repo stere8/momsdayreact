@@ -8,25 +8,25 @@ function App() {
     <div className="App">
       <div class="container">
         <ImageCard
-          message="Happy mother day, thanks for being there! I love you! May God bless you!"
+          message="Thank you for being supportive in all our decisions. You're the best dad one can ask for, and we pray that you recover soon. Happy Father's Day!""
           image="https://i.imghippo.com/files/WhYze1716745094.jpg"
           name="Edgard"
           left
         />
         <ImageCard
-          message="Happy mothers day. all we are today is thanks to you and we will always do our best to make you proud and happy. "
+          message="Thank you for being supportive in all our decisions. You're the best dad one can ask for, and we pray that you recover soon. Happy Father's Day! "
           image="https://i.imghippo.com/files/RTJNe1716710417.jpg"
           name="Ange"
           left={false}
         />
         <ImageCard
-          message="Happy mother's, thank you for being God's blessing upon us and for your unconditional love and support."
+          message="Happy Father's Day, Dad! Your unwavering support and love mean the world to me. I hope you have a wonderful day and a speedy recovery. Love you always."
           image="https://i.imghippo.com/files/MxjFL1716745600.jpg"
           name="Oreste"
           left
         />
         <ImageCard
-          message="Happy Mother's Day to the best mom in the world! Thank you for all the love and support you give us every day. Love you so much"
+          message="Happy Father's Day to the best dad in the world! Thank you for all the love and support you give us every day. Love you so much and get well soon.""
           image="https://i.imghippo.com/files/bfCIW1716745324.jpg"
           name="Pamela"
           left={false}
