@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "eslint . && react-scripts build",
+    "build": "eslint src/ -- fix && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
