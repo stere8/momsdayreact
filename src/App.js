@@ -1,4 +1,3 @@
-import FC from "react";
 import "./App.css";
 import ImageCard from "./components/ImageCard";
 import Oreste from './img/Oreste.jpg'
@@ -37,9 +36,9 @@ function App() {
                 />
             </div>
             <div>
-                <iframe width="300" height="60" src="https://vocaroo.com/embed/1eeZANkFaew9?autoplay=0" frameBorder="0"
+                <iframe width="300" title="Player" height="60" src="https://vocaroo.com/embed/1eeZANkFaew9?autoplay=1" frameBorder="0"
                         allow="autoplay"></iframe>
-                <br/><a href="https://voca.ro/1eeZANkFaew9" title="Vocaroo Voice Recorder" target="_blank">View on
+                <br/><a href="https://voca.ro/1eeZANkFaew9" title="Vocaroo Voice Recorder" target="_blank" rel="noreferrer">View on
                 Vocaroo &gt;&gt;</a></div>
         </div>
     );
