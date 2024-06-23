@@ -7,8 +7,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
-    <p className='happy-mothers-day'><span >&#128151;</span>HAPPY FATHERS DAY<span >&#128151;</span></p>
+    <div className="header-container">
+      <p className='happy-mothers-day'><span>&#128151;</span>HAPPY FATHERS AND MOTHERS DAY<span>&#128151;</span></p>
+    </div>
     <App />
   </React.StrictMode>
 );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ImageCard = ({ name, message, image, left = true }) => {
+const ImageCard = ({ name, message1,meesage2, image, left = true }) => {
   return (
     <div className="row align-items-start big-container">
       {left ? (
@@ -15,7 +15,8 @@ const ImageCard = ({ name, message, image, left = true }) => {
           </div>
           <div className="col-md-8 d-flex align-items-center content-container">
             <div className="text-container">
-              <p className="message">{message}</p>
+              <p className="message1">{message1}</p>
+              <p className="message2">{meesage2}</p>
               <span className="author">~{name}</span>
             </div>
           </div>
@@ -24,7 +25,9 @@ const ImageCard = ({ name, message, image, left = true }) => {
         <>
           <div className="col-md-8 d-flex align-items-center content-container">
             <div className="text-container">
-              <p className="message">{message}</p>
+              <p className="message1">{message1}</p>
+              <br/>
+              <p className="message2">{meesage2}</p>
               <span className="author">~{name}</span>
             </div>
           </div>
