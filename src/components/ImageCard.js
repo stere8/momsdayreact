@@ -10,7 +10,7 @@ const ImageCard = ({ name, message, image, left = true }) => {
               className="img-fluid rounded-circle"
               id={name}
               src={image}
-              alt="Image"
+              alt="Image of the person"
             />
           </div>
           <div className="col-md-8 d-flex align-items-center content-container">
@@ -33,7 +33,7 @@ const ImageCard = ({ name, message, image, left = true }) => {
               className="img-fluid rounded-circle"
               id={name}
               src={image}
-              alt="Image"
+              alt="Image of the person"
             />
           </div>
         </>

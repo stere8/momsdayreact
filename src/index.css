@@ -66,3 +66,34 @@ body {
   /* You can keep styles for the name within this class */
 }
 
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .happy-mothers-day {
+    font-size: 3rem; /* Adjust font size for smaller screens */
+  }
+
+  .container {
+    flex-direction: column; /* Stack cards vertically on smaller screens */
+    width: 100%; /* Full width on smaller screens */
+  }
+
+  .big-container {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .content-container {
+    padding: 0.5rem; /* Reduce padding on smaller screens */
+  }
+
+  .text-container {
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .message {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .author {
+    font-size: 0.8rem; /* Adjust font size for smaller screens */
+  }
+}
